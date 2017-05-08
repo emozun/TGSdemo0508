@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+.center{
+	width:700px;
+	margin: 5% auto;
+}
+
+table.type05 {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	border-top: 1px solid #fff;
+}
+
+table.type05 th {
+	width: 200px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #fff;
+	/*background: #e7d4c2;*/
+	font-size:1.2rem;
+	color:#681a48;
+	font-family:小塚ゴシック Pr6N;
+}
+
+
+table.type05 td {
+	width: 500px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #fff;
+	font-size:1.2rem;
+}
+
+table.type05 td a{
+	color:#681a48;
+}
+
+table.type05 td a:hover{
+	color:#9932cc;
+}
+
+table tr:nth-child(even) {
+background: #fbf6d6;
+}
+
+table tr:nth-child(odd) {
+background: #fabdbd;
+}
