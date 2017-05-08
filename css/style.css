@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/*------------------------------------
+ *base
+ *------------------------------------ */
+
+ html{
+   font-size: 62.5%;
+ }
+
+ *, *::before, *::after{
+   box-sizing: border-box;
+ }
+
+ a:link, a:visited, a:hover, a:active{
+   color: #6e3a59;
+   text-decoration:none;
+ }
+
+ body{
+   width:100%;
+   height:auto;
+   background-color: #ffeef8;
+
+ }
+
+
+ /*------------------------------------
+  *body
+  *------------------------------------ */
+.header{
+  width:100%;
+  background-image: url(../img/decoline.png);
+  background-position: top;
+  background-repeat:  repeat-x;
+}
+
+.logo{
+  width:15%;
+  margin:0 auto;
+}
+
+.TGSlogo{
+  width: 100%;
+}
+
+.global-nav{
+  margin-top:15px;
+  text-align: center;
+}
+
+.global-nav .nav-item{
+  display: inline-block;
+  margin:0 10px;
+  font-family: University Roman LET plain;
+  font-size:3rem;
+}
+
+.global-nav .nav-item a:hover{
+  color:#9932cc;
+}
+
+
+/*.global-nav2{
+  width:10%;
+  margin-left: auto;
+  background-color: red;
+}
+
+.sns{
+  width:50%;
+}
+*/
+
+.hot-topic{
+  width:146mm;
+  height:110mm;
+  margin: 5% auto;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 90px;
+
+  border: 2px solid #fabdbd;
+  border-radius: 20px;
+}
+
+.sns-icons{
+    display: block;
+    width:60px;
+    height:60px;
+    margin:10px auto;
+    opacity: 0.5;
+}
+
+.sns-icons:hover{
+  opacity:1;
+}
+
+
+.slide-contents{
+  transition: opacity 0.15s;
+}
+
+.slide-contents:hover{
+  opacity: 0.8;
+}
+
+.main1{
+  padding-bottom: 1%;
+  background-image: url(../img/decoline-thin.png);
+  background-position: bottom;
+  background-repeat:  repeat-x;
+}
+
+
+.main2{
+  width:100%;
+  padding-bottom: 7%;
+  height: inherit;
+  background-image: url(../img/TGS背景.png);
+  background-size:30%;
+  background-position:bottom right;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+
+  }
+
+.contents{
+  width:60%;
+  border: 2px solid #fabdbd;
+  border-radius: 20px;
+  margin:5% auto 0 auto;
+
+}
+
+
+.heading-bg{
+background-color: #ffeef8;
+width:20%;
+margin-top: -5%;
+}
+
+
+.heading-bg-long{
+background-color: #ffeef8;
+width:30%;
+margin-top: -5%;
+}
+
+.heading{
+  font-family: University Roman LET plain;
+  font-size:4rem;
+  color:#681a48;
+
+}
+
+.heading:before{
+  width:10%;
+  content: url(../img/bulet.png);
+  margin:10px;
+  position:relative;
+}
+
+.left-date{
+  display:inline-block;
+  border-right: 1px solid;
+  margin: 2% 5% 0 3%;
+  padding:0 2% 0 0;
+}
+
+.right-detail{
+  display:inline-block;
+  padding: 0 3%;
+}
+
+.detail{
+  font-size:1.5rem;
+  color:#681a48;
+  margin:2% 0;
+  transition: color 0.2s;
+}
+
+.detail:hover{
+  color:#9932cc;
+}
+
+.youtube{
+  width:95%;
+  margin: 2% auto;
+
+}
+
+.yt{
+  margin:0 2%;
+}
+
+
+
+/*------------------------------------
+ *footer
+ *------------------------------------ */
+footer{  width:100%;
+  background-image: url(../img/decoline.png);
+  background-position: bottom;
+  background-repeat:  repeat-x;
+  }
